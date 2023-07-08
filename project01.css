@@ -1,0 +1,44 @@
+body{
+    margin-top:25vh;
+}
+
+.container{
+    margin:auto;
+    margin-bottom: 5vh;
+    max-width: 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button{
+    height: 10vh;
+    font-size: 2rem;
+}
+
+button:disabled{
+    border: 1px solid grey;
+}
+
+span{
+    font-size:2rem
+}
+
+.active{
+    display:none;
+}
+
+.p-one{
+    color: blue;
+    text-shadow: 0 0 2px white;
+}
+.player1{
+    display: none;
+}
+
+.p-two{
+    color:red;
+    text-shadow: 0 0 2px white;
+}
+.player2{
+    display: none;
+}
